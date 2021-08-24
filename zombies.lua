@@ -3,6 +3,7 @@
 -- Fixed how zombies would be driving vehicles before getting out to wonder.
 -- Fixed how zombies would run at a player even though they're in a vehicle.
 -- Upgraded the efficiency by replacing vDist and combining zombie while loops.
+-- Fixed how zombies would get stuck against walls and objects while chasing.
 
 local Shooting = false
 local Running = false
