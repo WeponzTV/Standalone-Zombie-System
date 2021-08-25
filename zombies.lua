@@ -155,7 +155,7 @@ Citizen.CreateThread(function()
 	            end
 
 	            if Distance <= DistanceTarget and not IsPedInAnyVehicle(PlayerPedId(), false) then
-	                TaskGoToEntity(Zombie, GetPlayerPed(-1), -1, 0.0, 2.0, 1073741824, 0)
+	                TaskGoToEntity(Zombie, PlayerPedId(), -1, 0.0, 2.0, 1073741824, 0)
 	            end
 
 	            if Distance <= 1.3 then
