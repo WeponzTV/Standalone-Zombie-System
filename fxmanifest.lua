@@ -5,4 +5,7 @@ author 'Weponz'
 description 'Standalone Zombie System'
 version '1.0.2'
 
-client_script 'zombies.lua'
+client_scripts {
+    'zombies.lua',
+    'EntityEnumerator.lua'
+}
